@@ -1,0 +1,60 @@
+body{
+    font-family: "Roboto", sans-serif;
+    margin: 0px;
+    padding: 0px;
+}
+
+.heading{
+    background-color: #f0d5c0;
+    display: flex;
+}
+
+.maintitle{
+    margin: auto;
+    font-size: 60px;
+    padding-top: 20px;
+}
+.everything-container{
+    display: flex;
+    flex-direction: column;
+    flex: 1 1 auto;
+}
+.score{
+    background-color: #f0d5c0;
+    min-height: 200px;
+    display: flex;
+    flex: 1 1 auto;
+    gap: 250px;
+}
+
+.fscore{
+    margin: auto;
+}
+
+.game-log{
+    background-color: #ee6d50;
+    min-height: 200px;
+}
+
+.buttons{
+    background-color: #f0d5c0;
+    min-height: 200px;
+}
+
+
+.btn{
+    min-width: 250px;
+    min-height: 50px;
+    background-color: #7a003d;
+    font-size: 28px;
+    font-weight: 800;
+    border-radius: 10px;
+    color: #f0d5c0;
+    margin: auto;
+}
+
+.buttons{
+    display: flex;
+    gap: 50px;
+    
+}
