@@ -2,6 +2,7 @@ body{
     font-family: "Roboto", sans-serif;
     margin: 0px;
     padding: 0px;
+    background-color: #f0d5c0;
 }
 
 .heading{
@@ -58,3 +59,10 @@ body{
     gap: 50px;
     
 }
+
+
+button:hover{
+    background-color: #440022;
+}
+
+

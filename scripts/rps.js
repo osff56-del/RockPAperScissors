@@ -1,5 +1,6 @@
 let humanScore = 0
 let computerScore = 0
+let humanchoice
 
 
 function getComputerChoice(){
@@ -17,7 +18,7 @@ function getComputerChoice(){
 }
 
 function getHumanChoice(){
-   let human = prompt("Enter your choice")
+   let human = humanchoice
     return human
 }
 
@@ -36,7 +37,7 @@ function playRound(humanSelection, computerSelection){
 
 function playGame(){
     for (let i = 1; i <=5; i++) {
-        playRound(getHumanChoice(), getComputerChoice())
+        playRound(humanchoice, getComputerChoice())
     }
     if (computerScore > humanScore){
         return("You lost!")
@@ -45,5 +46,5 @@ function playGame(){
         return("You won the game!")
     }
 }
-
+console.log(humanchoice)
 console.log(playGame())
