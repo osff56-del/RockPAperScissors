@@ -2,6 +2,9 @@ let humanScore = 0
 let computerScore = 0
 let humanchoice
 let roundCounter = 0
+const computerscore = document.querySelector(".cscore")
+const humanscore = document.querySelector(".hscore")
+const log = document.querySelector(".logtextcontainer")
 
 
 function getComputerChoice(){
@@ -28,29 +31,37 @@ function playRound(humanSelection, computerSelection){
     let roundplayed = false
     const humanchoice = humanSelection.toLowerCase()
     if (computerSelection == "paper" && humanchoice == "rock" || computerSelection == "scissors" && humanchoice == "paper" || computerSelection == "rock" && humanchoice == "scissors"){
-        console.log("You lost!")
+        log.innerHTML = "<p class='message'>You lost!</p>"
         computerScore++
         roundplayed = true
     }
     
     else if(computerSelection == "paper" && humanchoice == "scissors" || computerSelection == "scissors" && humanchoice == "rock" || computerSelection == "rock" && humanchoice == "paper"){
-        console.log("You won!")
+        log.innerHTML = "<p class='message'>You Won!</p>"
         humanScore++
         roundplayed = true
     }
+
     
     else{
-        console.log("Its a tie!")
+        log.innerHTML = "<p class='message'>its a tie</p>"
     }
+    
+   computerscore.textContent = computerScore;
+    humanscore.textContent = humanScore;  
+    
     if (roundplayed){
         roundCounter++
         if (roundCounter >= 5)
             if (humanScore > computerScore){
-               console.log("You win!")
+               alert("You win!")
             }
             else{
-               console.log("You lose :(")
+               alert("You lose :(")
             }}
+
+    
+        
     }
 
 

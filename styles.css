@@ -66,3 +66,24 @@ button:hover{
 }
 
 
+.message{
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.logtextcontainer{
+    margin: auto;
+    padding-top: 25px;
+     min-height: 100px;
+}
+
+
+.fscore{
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 40px;
+    font-weight: 700;
+}
+
