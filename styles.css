@@ -1,0 +1,89 @@
+body{
+    font-family: "Roboto", sans-serif;
+    margin: 0px;
+    padding: 0px;
+    background-color: #f0d5c0;
+}
+
+.heading{
+    background-color: #f0d5c0;
+    display: flex;
+}
+
+.maintitle{
+    margin: auto;
+    font-size: 60px;
+    padding-top: 20px;
+}
+.everything-container{
+    display: flex;
+    flex-direction: column;
+    flex: 1 1 auto;
+}
+.score{
+    background-color: #f0d5c0;
+    min-height: 200px;
+    display: flex;
+    flex: 1 1 auto;
+    gap: 250px;
+}
+
+.fscore{
+    margin: auto;
+}
+
+.game-log{
+    background-color: #ee6d50;
+    min-height: 200px;
+}
+
+.buttons{
+    background-color: #f0d5c0;
+    min-height: 200px;
+}
+
+
+.btn{
+    min-width: 250px;
+    min-height: 50px;
+    background-color: #7a003d;
+    font-size: 28px;
+    font-weight: 800;
+    border-radius: 10px;
+    color: #f0d5c0;
+    margin: auto;
+}
+
+.buttons{
+    display: flex;
+    gap: 50px;
+    
+}
+
+
+button:hover{
+    background-color: #440022;
+}
+
+
+.message{
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.logtextcontainer{
+    margin: auto;
+    padding-top: 25px;
+     min-height: 100px;
+}
+
+
+.fscore{
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 40px;
+    font-weight: 700;
+}
+

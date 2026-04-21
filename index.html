@@ -3,10 +3,45 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Rock Paper scissors</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
 </head>
 <body>
-    <h1>Hello!</h1>
-    <script src="rps.js"></script>
+    <heading>
+        <div class="heading">
+            <h1 class="maintitle">Rock Paper scissors</h1>
+        </div>
+    </heading>
+    <div class="everything-container">
+        <div class="score">
+            <div class="fscore cpu-score">
+                <h2>Computer Score: </h2>
+                <p class="cscore">0</p>
+            </div>
+            <div class="fscore human-score">
+                <h2>Human Score: </h2>
+                <p class="hscore">0</p>
+            </div>
+        </div>
+        <div class="game-log">
+            <div class="logtextcontainer">
+                <p class="message">Press a button to start game!</p>
+            </div>
+
+        </div>
+        <div class="buttons">
+            <button class="btn scissors">Scissors</button>
+            <button class="btn rock">Rock</button>
+            <button class="btn paper">Paper</button>
+
+    </div>
 </body>
+<script src="scripts/rps.js"></script>
+<script src="scripts/scissors.js"></script>
+<script src="scripts/rock.js"></script>
+<script src="scripts/paper.js"></script>
+
 </html>
+
+
